@@ -1,0 +1,68 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: center;
+}
+
+.banner {
+  background-image: url(../../images/background.png);
+  color: white;
+  padding: 140px 0px; 
+}
+
+
+@media (max-width: 900px) {
+  .container {
+    width: 650px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.btn {
+  cursor: pointer;
+  background-color: white;
+  text-decoration: none;
+  font-size: 0,9rem;
+  border-radius: 2px;
+  padding: 0.75rem;
+  color: aqua;
+  border-radius: 12px;
+  padding-top: 8px;
+}
+
+.btn:hover {
+  background-color: #2190d8;
+}
+
+.btn:focus {
+  background-color: yellow;
+}
+
+.hello {
+  display: inline;
+  align-content: space-around;
+}
+
+.hello li {
+  display: inline-block;
+  align-content: space-between;
+  text-align: center;
+  padding-left: 120px;
+}
+
+
+.hello img {
+  width: 150px; 
+  height: 150px;
+}
